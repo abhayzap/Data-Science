@@ -1,4 +1,4 @@
-# 📊 Data Science Portfolio — Abhay
+# 📊 Data Science Portfolio — Abhay Singh Thakur
 
 > A collection of Python projects, data analysis exercises, and AI/ML coursework built during my journey from SAIT certification to professional data roles.
 
