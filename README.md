@@ -1,15 +1,17 @@
 # 📊 Data Science Portfolio — Abhay Singh Thakur
 
-> A collection of Python projects, data analysis exercises, and AI/ML coursework built during my journey from SAIT certification to professional data roles.
+> *"Engineer by training. Analyst by choice."*
+
+A collection of Python projects and data science exercises built during my journey from SAIT Data Science certification to professional data analyst roles in Calgary.
 
 ---
 
 ## 👨‍💻 About This Repository
 
-This repository documents my hands-on learning journey in data science. Every project here is written, tested, and understood — not just copied. It reflects my progress through:
+Every project here is written, tested, and understood — not just copied. This repository documents my real, hands-on learning progress and reflects my commitment to building genuine data skills from the ground up.
 
-- ✅ **SAIT Data Science Certification** (SQL, Python, Power BI)
-- 🔄 **Apna College Prime AI/ML Batch** *(In Progress)*
+📍 Based in Calgary, AB | 🔍 Open to Junior Data Analyst roles  
+🔗 LinkedIn: [linkedin.com/in/abhayzap](https://www.linkedin.com/in/abhayzap)
 
 ---
 
@@ -19,20 +21,15 @@ This repository documents my hands-on learning journey in data science. Every pr
 Data-Science/
 │
 ├── 📁 python-fundamentals/
-│   ├── variables_datatypes.ipynb
-│   ├── operators_typecasting.ipynb
+│   ├── assignment1.ipynb
 │   ├── conditionals.ipynb
 │   ├── loops.ipynb
-│   └── functions.ipynb
-│
-├── 📁 mini-projects/
-│   ├── temperature_converter.ipynb
-│   ├── multiplication_table.ipynb
-│   ├── simple_interest_calculator.ipynb
-│   ├── circle_area_calculator.ipynb
-│   ├── factorial_calculator.ipynb
-│   ├── vowel_counter.ipynb
-│   └── login_system.ipynb
+│   ├── functions.ipynb
+│   ├── strings.ipynb
+│   ├── lists.ipynb
+│   ├── tuples.ipynb
+│   ├── dictionaries.ipynb
+│   └── sets.ipynb
 │
 ├── 📁 sql/
 │   └── (coming soon)
@@ -46,36 +43,63 @@ Data-Science/
 
 ---
 
-## 🐍 Python Projects
+## 🐍 Python Fundamentals
 
-### Mini Projects
+### Assignment 1 — Core Concepts
+| Problem | Concepts |
+|---------|----------|
+| Variables & Output | Variables, data types, f-strings |
+| Data Types | int, float, str, bool, type() |
+| Input & Output | input(), type conversion |
+| Operators | Arithmetic, operator precedence |
+| Type Casting | int(), float(), str() |
+| Temperature Converter | Formulas, float input |
+| Circle Area Calculator | math.pi, operators |
+| Simple Interest Calculator | Financial formula, functions |
+| Integer & Fractional Parts | Floor division, modulo |
+| Variable Swap | Temp variable & Pythonic one-liner |
 
-| # | Project | Concepts Used | Status |
-|---|---------|--------------|--------|
-| 1 | 🌡️ Temperature Converter | Input, float, operators, f-strings | ✅ Done |
-| 2 | ✖️ Multiplication Table | While loops, input, formatting | ✅ Done |
-| 3 | 💰 Simple Interest Calculator | Float input, formula, functions | ✅ Done |
-| 4 | ⭕ Circle Area Calculator | math.pi, float, operators | ✅ Done |
-| 5 | 🔢 Factorial Calculator | For loops, functions, return | ✅ Done |
-| 6 | 🔤 Vowel Counter | For loops, conditionals, in operator | ✅ Done |
-| 7 | 🔐 Login System | Nested conditionals, string comparison | ✅ Done |
-| 8 | 🔄 Variable Swap | Temp variable & Pythonic one-liner | ✅ Done |
+### Conditionals
+| Program | Concepts |
+|---------|----------|
+| Age Category Classifier | if, elif, else, boundary conditions |
+| Even or Odd Checker | Modulo operator |
+| Multiple of 5 Checker | Modulo operator |
+| Login System | Nested conditionals, and operator |
+| Traffic Light | Match-case statement |
 
-### Python Fundamentals Covered
+### Loops
+| Program | Concepts |
+|---------|----------|
+| Hello World x5 | While loop, counter |
+| Numbers 1-5 Forward & Reverse | While loop, increment/decrement |
+| Multiplication Table | While loop, formatted output |
+| Break Keyword | Loop control, early exit |
+| Continue — Skip Multiples of 3 | Continue, modulo |
+| For Loop Basics | range(), iteration |
+| Character Frequency Counter | For loop, string iteration |
+| Vowel Counter | For loop, `in` operator |
+| Sum of N Natural Numbers | For loop, accumulator pattern |
 
-```python
-fundamentals = [
-    "Variables & Data Types",      # int, float, str, bool
-    "Type Casting",                 # int(), float(), str()
-    "Operators",                    # arithmetic, comparison, logical
-    "Operator Precedence",          # BODMAS in Python
-    "Conditional Statements",       # if, elif, else, match-case
-    "Loops",                        # while, for, break, continue
-    "Functions",                    # def, parameters, return, lambda
-    "Default Parameters",           # def func(a, b=1)
-    "String Operations",            # in operator, iteration
-]
-```
+### Functions
+| Program | Concepts |
+|---------|----------|
+| Basic Function | def, calling functions |
+| Function with Parameters | Parameters vs arguments |
+| Sum of Two Numbers | Return statement |
+| Average of Three Numbers | Multiple parameters, formula |
+| Default Parameters | def func(a, b=1) |
+| Lambda Functions | One-line functions |
+| Factorial Calculator | For loop + function + return |
+
+### Data Structures
+| Notebook | Topics Covered |
+|----------|---------------|
+| strings.ipynb | Length, indexing, slicing, formatting, iteration |
+| lists.ipynb | Mutability, methods, slicing, searching |
+| tuples.ipynb | Immutability, methods, indexing |
+| dictionaries.ipynb | Key-value pairs, methods, updating |
+| sets.ipynb | Unique values, operations, real world problem |
 
 ---
 
@@ -91,14 +115,15 @@ fundamentals = [
 
 ## 🎓 Certifications
 
-| Certification | Institution | Skills |
-|--------------|-------------|--------|
-| Data Science | SAIT | SQL, Python, Power BI |
-| Prime AI/ML Batch | Apna College | Python, ML, AI *(In Progress)* |
+| Certification | Institution | Year |
+|--------------|-------------|------|
+| Data Science | SAIT — Southern Alberta Institute of Technology | 2025 |
+| Supply Chain Management | SAIT — Southern Alberta Institute of Technology | 2024 |
+| Data Analytics Job Simulation | Deloitte (Forage) | 2026 |
 
 ---
 
-## 🚀 What's Coming Next
+## 🚀 Coming Next
 
 - [ ] SQL query projects & case studies
 - [ ] Power BI dashboards
